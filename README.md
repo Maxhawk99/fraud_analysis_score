@@ -54,9 +54,8 @@ O projeto segue uma abordagem estruturada:
 
 ![curvas_roc](figures/curvas_roc_score_manual_x_regressao_logistica.png)
 
-* **AUC – Score Manual:** ~0.90
 * **AUC – Regressão Logística:** ~0.90
-
+* **AUC – Score Manual:** ~0.90
 * **R$ 822.165** em redução total de perdas financeiras em relação ao cenário sem score.
 * Threshold definido com base em **lucro líquido máximo**, e não apenas F1-score.
 
