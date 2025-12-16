@@ -51,12 +51,13 @@ O projeto segue uma abordagem estruturada:
 ## 4. Principais Resultados
 
 * Forte convergência entre score manual e modelo estatístico
-* **AUC – Score Manual:** ~0.90
-* **AUC – Regressão Logística:** ~0.90
 
 ![curvas_roc](figures/curvas_roc_score_manual_x_regressao_logistica.png)
 
-* R$ 822.165 em redução total de perdas financeiras em relação ao cenário sem score.
+* **AUC – Score Manual:** ~0.90
+* **AUC – Regressão Logística:** ~0.90
+
+* **R$ 822.165** em redução total de perdas financeiras em relação ao cenário sem score.
 * Threshold definido com base em **lucro líquido máximo**, e não apenas F1-score.
 
 O score mostrou-se financeiramente viável, com potencial de se pagar já no primeiro período de operação, dependendo do custo de implementação.
@@ -71,7 +72,6 @@ O score mostrou-se financeiramente viável, com potencial de se pagar já no pri
 ├── 01_eda.ipynb
 ├── 02_engenharia_features.ipynb
 └── 03_score_avaliacao_performance.ipynb
-
 ```
 
 ---
@@ -108,5 +108,5 @@ A abordagem manual, quando bem fundamentada, pode ser tão eficaz quanto modelos
 - [GitHub](https://github.com/Maxhawk99)
 - [Portfolio](https://merciful-daphne-98e.notion.site/Marx-Araujo-225e883ebb298090b128c34d2eb3b864)
 - [Medium](https://medium.com/@marx.araujo99)
-- [Email](marx.araujo99@gmail.com)
+- [Email](mailto:marx.araujo99@gmail.com)
 
