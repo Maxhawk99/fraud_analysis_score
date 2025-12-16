@@ -6,8 +6,6 @@ Este projeto tem como objetivo desenvolver um score manual de risco de fraude pa
 
 Diferentemente de uma abordagem puramente baseada em Machine Learning, o foco aqui é construir um modelo interpretável, auditável e operacionalmente viável, adequado para cenários com dataset reduzido, realidade comum em projetos iniciais de fraude.
 
----
-
 ## 2. Problema de Negócio
 
 Fraudes financeiras geram prejuízos diretos e impacto negativo na experiência do cliente.
@@ -19,8 +17,6 @@ O desafio é identificar transações fraudulentas com eficiência, equilibrando
 * Impacto financeiro real
 
 O objetivo é apoiar decisões como liberar, revisar ou bloquear transações, com base em níveis de risco.
-
----
 
 ## 3. Abordagem Utilizada
 
@@ -46,8 +42,6 @@ O projeto segue uma abordagem estruturada:
 5. **Calibração Econômica**
    Otimização do threshold com base em impacto financeiro, e não apenas métricas estatísticas.
 
----
-
 ## 4. Principais Resultados
 
 * Forte convergência entre score manual e modelo estatístico
@@ -61,8 +55,6 @@ O projeto segue uma abordagem estruturada:
 
 O score mostrou-se financeiramente viável, com potencial de se pagar já no primeiro período de operação, dependendo do custo de implementação.
 
----
-
 ## 5. Estrutura dos Notebooks do Projeto
 
 ```
@@ -73,8 +65,6 @@ O score mostrou-se financeiramente viável, com potencial de se pagar já no pri
 └── 03_score_avaliacao_performance.ipynb
 ```
 
----
-
 ## 6. Tecnologias Utilizadas
 
 * Python
@@ -83,23 +73,17 @@ O score mostrou-se financeiramente viável, com potencial de se pagar já no pri
 * Matplotlib / Seaborn
 * Jupyter Notebook
 
----
-
 ## 7. Conclusão
 
 Este projeto demonstra que, mesmo com dados limitados, é possível construir um sistema de decisão robusto ao combinar estatística, interpretação de negócio e avaliação econômica.
 
 A abordagem manual, quando bem fundamentada, pode ser tão eficaz quanto modelos de Machine Learning, oferecendo maior transparência, controle e facilidade de implementação em ambientes reais de fraude.
 
----
-
 ## 8. Próximos Passos
 
 * Testar o score em dados temporais futuros
 * Automatizar o pipeline de scoring
 * Avaliar integração com modelos supervisionados em produção
-
----
 
 ## 📫 9. Contato
 
