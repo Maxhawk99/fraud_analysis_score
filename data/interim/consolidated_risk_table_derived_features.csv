@@ -1,0 +1,17 @@
+feature,bin,n_total,n_has_cbk,has_cbk_rate,relative_risk,priority
+user_fraud_above_50,1,237,215,90.7%,7.42,CRÍTICA
+multi_card_flag,1,192,144,75.0%,6.14,CRÍTICA
+multi_device_flag,1,68,46,67.6%,5.53,CRÍTICA
+burst_transaction,1,300,172,57.3%,4.69,CRÍTICA
+comb_a,1,98,50,51.0%,4.17,CRÍTICA
+value_exc_max,1,191,91,47.6%,3.9,CRÍTICA
+anomalous_value,1,223,70,31.4%,2.57,CRÍTICA
+nighttime_flag,1,1405,243,17.3%,1.42,BAIXA
+comb_a,0,3101,341,11.0%,0.9,BAIXA
+multi_device_flag,0,3131,345,11.0%,0.9,BAIXA
+anomalous_value,0,2976,321,10.8%,0.88,BAIXA
+value_exc_max,0,3008,300,10.0%,0.82,BAIXA
+nighttime_flag,0,1794,148,8.2%,0.67,BAIXA
+multi_card_flag,0,3007,247,8.2%,0.67,BAIXA
+burst_transaction,0,2899,219,7.6%,0.62,BAIXA
+user_fraud_above_50,0,2962,176,5.9%,0.49,BAIXA
